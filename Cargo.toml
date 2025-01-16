@@ -1,0 +1,12 @@
+[package]
+name = "email_newsletter"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+actix-web = "4"
+tokio = {version = "1.43.0", features = ["full"]}
+tokio-macros = "~2.5.0"
